@@ -1,0 +1,17 @@
+# Ignore Arduino/ESP32 build outputs and binaries
+*.bin
+*.elf
+*.hex
+
+# Ignore private configuration or secret files (if you ever separate phone numbers into a config file)
+config.h
+secrets.h
+
+# Ignore common IDE project folders
+.vscode/
+.cmake/
+.build/
+
+# Ignore system-specific clutter
+.DS_Store
+Thumbs.db
